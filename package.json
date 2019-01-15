@@ -1,0 +1,20 @@
+{
+  "name": "coinbase_slippage",
+  "version": "1.0.0",
+  "description": "node server application written to perform basic CRUD on flow nodes",
+  "main": "index.js",
+  "dependencies": {
+    "collections": "aggarwalakhil9/collections#master",
+    "express": "^4.16.4",
+    "ws": "^6.1.2"
+  },
+  "scripts": {
+    "start": "node --stack-size=10000 index"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "aggarwalakhil9",
+  "license": "ISC"
+}
